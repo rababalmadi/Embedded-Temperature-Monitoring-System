@@ -1,27 +1,24 @@
-# Embedded Temperature Monitoring System
+# Arduino Temperature Monitoring System
 
-**Core Function:**  
-An embedded system that measures ambient temperature in real time using the TMP36 temperature sensor and displays the readings on a 16x2 LCD screen.
+## Core Function
 
-**Main Components:**
+An embedded system that measures ambient temperature in real time using the TMP36 temperature sensor and displays the readings on a 16×2 LCD screen.
 
--Arduino Uno: The microcontroller responsible for processing sensor data and controlling the display.
+## Main Components
 
--TMP36 Temperature Sensor: Measures ambient temperature and outputs an analog voltage proportional to the temperature.
+- **Arduino Uno:** The microcontroller that processes sensor data and controls the LCD.
+- **TMP36 Temperature Sensor:** Measures ambient temperature and outputs an analog voltage proportional to the temperature.
+- **16×2 LCD Display:** Displays real-time temperature readings.
+- **Breadboard & Jumper Wires:** Used for circuit connections and prototyping.
 
--16x2 LCD Display: Displays real-time temperature readings.
+## Working Principle
 
--Breadboard & Jumper Wires: Used for circuit connections and prototyping.
+The TMP36 continuously measures the ambient temperature and sends an analog voltage signal to the Arduino Uno. The Arduino converts the analog signal into a temperature value in degrees Celsius and displays the result on the LCD in real time.
 
-**Working Principle:**  
-The TMP36 sensor continuously measures the surrounding temperature and sends analog voltage signals to the Arduino Uno. The Arduino converts these signals into temperature values in Celsius and updates the readings on the LCD display in real time.
+## Future Improvements
 
-**Future Improvements:**
-
--OLED display integration
-
--Wireless temperature monitoring
-
--Mobile application connectivity
-
--IoT based environmental monitoring system
+- OLED display integration
+- Wireless temperature monitoring
+- Mobile application connectivity
+- IoT-based environmental monitoring system
+- Data logging using an SD card
